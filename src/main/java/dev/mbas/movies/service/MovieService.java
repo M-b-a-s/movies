@@ -1,7 +1,10 @@
-package dev.mbas.movies;
+package dev.mbas.movies.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import dev.mbas.movies.model.Movie;
+import dev.mbas.movies.repository.MovieRepository;
 
 import java.util.List;
 import java.util.Optional;

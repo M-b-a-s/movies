@@ -1,8 +1,10 @@
-package dev.mbas.movies;
+package dev.mbas.movies.repository;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
+
+import dev.mbas.movies.model.Movie;
 
 import java.util.Optional;
 
